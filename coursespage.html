@@ -8,312 +8,186 @@
     <meta name="generator" content="Hugo 0.101.0">
     <title>Web App</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    
-<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
+    <!-- Custom styles for this template -->
+    <link href="./css/header.css" rel="stylesheet">
 
-
-<style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
       }
-    }
 
-    .b-example-divider {
-      height: 3rem;
-      background-color: rgba(0, 0, 0, .1);
-      border: solid rgba(0, 0, 0, .15);
-      border-width: 1px 0;
-      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-    }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
 
-    .b-example-vr {
-      flex-shrink: 0;
-      width: 1.5rem;
-      height: 100vh;
-    }
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
 
-    .bi {
-      vertical-align: -.125em;
-      fill: currentColor;
-    }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
 
-    .nav-scroller {
-      position: relative;
-      z-index: 2;
-      height: 2.75rem;
-      overflow-y: hidden;
-    }
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
 
-    .nav-scroller .nav {
-      display: flex;
-      flex-wrap: nowrap;
-      padding-bottom: 1rem;
-      margin-top: -1px;
-      overflow-x: auto;
-      text-align: center;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
-    }
-  </style>
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
 
-  
-  <!-- Custom styles for this template -->
-  <link href="./css/header.css" rel="stylesheet">
-</head>
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+  </head>
 
-<header>
-  <div class="px-3 py-2 text-bg-secondary">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="#" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-          <main class="px-3">
-            <h1>
-              <p class="h-100 ">
-                <font size="+6" color="black"><b> Welcome to my Course Page</b></font>  
-              </p>
-            </h1>
-          </main>
-        </a>
-        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-          <li>
-            <a href="./index.html" class="nav-link text-secondary">
-              <img src="https://img.icons8.com/sf-black-filled/64/000000/home-page.png"/>
+  <body>
+    <header>
+      <div class="px-3 py-2 text-bg-secondary">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="#" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+              <main class="px-3">
+                <h1>
+                  <p class="h-100">
+                    <font size="+6" color="black"><b>Welcome to my Course Page</b></font>
+                  </p>
+                </h1>
+              </main>
             </a>
-          </li>
-          <li>
-            <a href="./index.html" class="nav-link text-secondary">
-              <img src="https://img.icons8.com/ios-filled/50/000000/literature--v1.png"/>
-            </a>
-          </li>
-        </ul>
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+              <li><a href="./index.html" class="nav-link text-secondary">
+                <img src="https://img.icons8.com/sf-black-filled/64/000000/home-page.png"/>
+              </a></li>
+              <li><a href="./index.html" class="nav-link text-secondary">
+                <img src="https://img.icons8.com/ios-filled/50/000000/literature--v1.png"/>
+              </a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</header>
-<body>
-  <main>
-    <div class="container py-4">
-      <div class="row align-items-md-stretch">
-        <div class="p-5 mb-4 bg-secondary rounded-3">
-          <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Major project from Final year</h1>
-            <p class="col-md-8 fs-4">
-              Lab Exercises:
-            </p>
-            <div class="row">
-              <div class="col">
+    </header>
+
+    <main>
+      <div class="container py-4">
+        <div class="row align-items-md-stretch">
+          <!-- Classwork Section -->
+          <div class="p-5 mb-4 bg-secondary rounded-3">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold">Major Project from Final Year</h1>
+              <p class="col-md-8 fs-4">Lab Exercises:</p>
+              <div class="row">
+                <!-- Classwork 1 -->
+                <div class="col">
                   <div class="h-100 p-5 text-bg-dark rounded-3">
                     <h1>Classwork 1</h1>
-                    <p>
-                      I made my first Android app using Android Studio. which gives the 
-                      user an option to enter a number of your choices of display booth and show the directions to their desired booth number for the Capstone Project.
-                    </p>
+                    <p>I made my first Android app using Android Studio, which allows the user to enter a booth number and display directions to it.</p>
                     <a target="_blank" href="https://youtu.be/E2L0zmeU_bU">
                       <button class="btn btn-outline-light" type="button">Click Here for demo video!</button>
                     </a>
-                    &nbsp;
                     <br /><br />
                     <a target="_blank" href="https://drive.google.com/file/d/1XH9MDQN2xkQtkubZcwO5oBzuwNfy1uWW/view?usp=drive_link">
-                      <button class="btn btn-outline-light" type="button">Click here for link to .apk!</button>
+                      <button class="btn btn-outline-light" type="button">Click here for .apk link!</button>
                     </a>
                   </div>
+                </div>
+
+                <!-- Classwork 2 -->
+                <div class="col">
+                  <div class="h-100 p-5 text-bg-dark rounded-3">
+                    <h1>Classwork 2</h1>
+                    <p>This app, created with MIT App Inventor, allows users to send a request with their contact details.</p>
+                    <a target="_blank" href="https://youtu.be/f9WoHwWf6q8">
+                      <button class="btn btn-outline-light" type="button">Click Here for demo video!</button>
+                    </a>
+                    <br /><br />
+                    <a target="_blank" href="https://drive.google.com/file/d/1T8up9q61bTmv7jjbI26_pHnm8ABSrBFr/view?usp=sharing">
+                      <button class="btn btn-outline-light" type="button">Click Here for .apk link!</button>
+                    </a>
+                  </div>
+                </div>
               </div>
+
+              <!-- Classwork 3 -->
+              <div class="h-100 p-5 text-bg-dark rounded-3">
+                <h1>Classwork 3</h1>
+                <p>In this section, I installed Flutter for Mobile App Development, created a Hello World app, and tested it on an emulator.</p>
+                <a target="_blank" href="https://docs.google.com/document/d/1fflV5tHuvs2m5CLhPARK_MY0s3FQpauC/edit?usp=sharing&ouid=116833884735512122959&rtpof=true&sd=true">
+                  <button class="btn btn-outline-light" type="button">Click Here to view .apk!</button>
+                </a>
+                <br /><br />
+                <a target="_blank" href="https://docs.google.com/document/d/1nWDm6Adel5QMGVPOZdproOqAvZ6yhge3/edit?usp=sharing&ouid=116833884735512122959&rtpof=true&sd=true">
+                  <button class="btn btn-outline-light" type="button">Click Here for .apk link!</button>
+                </a>
               </div>
             </div>
-              <div class="col">
-                <div class="h-100 p-5 text-bg-dark rounded-3">
-                  <h1>Classwork 2</h1>
-                  <p>
-                    In this section, you will find my First MIT app inventor app in which I have made an app where my  user (client) can reach me just  
-                    by entering a request by entering their first and last name phone number contact and email address.
-                    
-                  </p>
-                  <a target="_blank" href="https://youtu.be/f9WoHwWf6q8">
-                    <button class="btn btn-outline-light" type="button"> Click Here for demo video!</button>
-                  </a>
-                  &nbsp;
-                  <br /><br />
-                  <a target="_blank" href="https://drive.google.com/file/d/1T8up9q61bTmv7jjbI26_pHnm8ABSrBFr/view?usp=sharing">
-                    <button class="btn btn-outline-light" type="button">Click Here for link to .apk!</button>
-                  </a>
+          </div>
+
+          <!-- Labs Section -->
+          <div class="p-5 mb-4 bg-secondary rounded-3">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold">Labs</h1>
+              <p class="col-md-8 fs-4">All the Labs from my Final Semester:</p>
+              <div class="row">
+                <!-- Lab 1 -->
+                <div class="col">
+                  <div class="h-100 p-5 text-bg-dark rounded-3">
+                    <h2>Lab 1 - Research Report: The Future of Mobile Computing</h2>
+                    <p>This report discusses the future of mobile computing and compares my favorite mobile phones.</p>
+                    <a target="_blank" href="https://docs.google.com/document/d/1p4QJ8PQP3wj2JuKRT1GisMUETyMJNOoq0">
+                      <button class="btn btn-outline-light" type="button">Click Here for report!</button>
+                    </a>
+                  </div>
                 </div>
-              </div>      
-            &nbsp;
-            &nbsp;
-            <div class="align-content-lg-end">
-              <div class="h-100 p-5 text-bg-dark rounded-3 ">
-                <div class="row">
-                  <div class="col">
-                    <div class="h-100 p-5 text-bg-dark rounded-3">
-                      <h1>Classwork 3</h1>
-                      <p>
-                        In Class work 3 we are Installing Flutter for our Mobile App Development
-                        and Testings. First We install Flutter and create Hello World! app, and
-                        test it on our Emulator and build an .apk file.
-                      </p>
-                  <a target="_blank"https://docs.google.com/document/d/1fflV5tHuvs2m5CLhPARK_MY0s3FQpauC/edit?usp=sharing&ouid=116833884735512122959&rtpof=true&sd=true">
-                    <button class="btn btn-outline-light" type="button"> Click Here to view .apk !</button>
-                  </a>
-                  &nbsp;
-                  <br /><br />
-                  <a target="_blank" href="https://docs.google.com/document/d/1nWDm6Adel5QMGVPOZdproOqAvZ6yhge3/edit?usp=sharing&ouid=116833884735512122959&rtpof=true&sd=true">
-                    <button class="btn btn-outline-light" type="button">Click Here for link of the .apk!</button>
-                  </a>
-                    </div>
+
+                <!-- Lab 2 -->
+                <div class="col">
+                  <div class="h-100 p-5 text-bg-dark rounded-3">
+                    <h2>Lab 2 - Web Development in Node.js</h2>
+                    <p>This lab focuses on web development using Node.js for backend and JavaScript for frontend.</p>
+                    <a target="_blank" href="https://docs.google.com/document/d/1z8u0IlBaOBG_yN0aDQFCi0rOFSOTyPv5">
+                      <button class="btn btn-outline-light" type="button">Click Here for report!</button>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          </div>
+
         </div>
       </div>
-    </div>
-    <div class="container py-4">
-      <div class="row align-items-md-stretch">
-        <div class="p-5 mb-4 bg-secondary rounded-3">
-          <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold"> Labs </h1>
-            <p class="col-md-8 fs-4">
-              All the Labs from my Final Semester:
-            </p>
-            <div class="row">
-              <div class="col">
-                <div class="h-100 p-5 text-bg-dark rounded-3">
-                  <h2> Lab 1 - Research Report. <br/>(The Future of Mobile Computing) </h2>
-                  <p>
-                    Following below is my report on The Future of Mobile Computing as well as a comparison of my favorite mobile phones used in the past, and a Report on Best Phone mobile carrier and specifications for my Lab # 1.
-                  </p>
-                 <br><br/>
-                  <a target="_blank" href="https://docs.google.com/document/d/1p4QJ8PQP3wj2JuKRT1GisMUETyYMePjT/edit">
-                    <button class="btn btn-outline-light" type="button">Click Here to view report on my Lab #1!</button>
-                  </a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="h-100 p-5 text-bg-dark rounded-3 ">
-                  <h2>Lab 2 - Andriod Emulator </h2>
-                  <p>
-                    I was tasked to make my digital Presence Website and update it regularly with my Assignments and Projects, 
-                    I will also be making a video testing the .apk file provided in an Android emulator, and write a short document 
-                    regarding mobile application development tools. 
-                  </p>
-                  <a target="_blank" href="https://www.youtube.com/watch?v=H84hJ1m436g">
-                    <button class="btn btn-outline-light" type="button">Click Here to view .apk emulator!</button>
-                  </a>
-                  &nbsp;
-                  <br /><br />
-                  <a target="_blank" href="https://docs.google.com/document/d/1WA7OtkphG4G5PO5oTHrMm_vKzljKLdlNOmeCzVmItU4/edit?usp=sharing">
-                    <button class="btn btn-outline-light" type="button">Click Here to view the Reflection!</button>
-                  </a>
-                  <br /><br />
-                  <a target="_blank" href="https://docs.google.com/document/d/1_eHg8hN1KYhp3QHoMvpOxgrVhptUC90q/edit?pli=1">
-                    <button class="btn btn-outline-light" type="button">Click Here to view Toolbox of the Future!</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            <div class="row">
-              <div class="col">
-                <div class="h-100 p-5 text-bg-dark rounded-3">
-                  <h2>Lab 3 - XML and Related Technologies!</h2>
-                <p>
-                 In this lab, we are creating an XML Tree Diagram, a DTD File as well as an example XML file 
-                 for Lab # 3 using XML and Related Technologies.
-                </p>
-                <a target="_blank" href="https://docs.google.com/document/d/1eVT0PGS9pe5xMb1EXT_eevPWHcO1yfDURzCIole46vI/edit">
-                  <button class="btn btn-outline-light" type="button">Click Here to view the report!</button>
-                </a>
-                &nbsp;
-                <br /><br />
-                <a target="_blank" href="https://google.com/">
-                  <button class="btn btn-outline-light" type="button">Click Here to view the link!</button>
-                </a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="h-100 p-5 text-bg-dark rounded-3 ">
-                  <h2>Lab 4</h2>
-                  <p>
-                     Introduction to DART Programming Language- Research Assignment on the Collection part of DART.
-                  </p>
-                  <a target="_blank" href="https://docs.google.com/document/d/1xwxz7TtsRO4s693z7adxhyCDo_GgSgqK/edit?pli=1">
-                    <button class="btn btn-outline-light" type="button">Click Here to view the report!</button>
-                  </a>
-                  &nbsp;
-                  <br /><br />
-                  <a target="_blank" href="https://youtube.com">
-                    <button class="btn btn-outline-light" type="button">Click Here to view the youtube video!</button>
-                  </a>
-                </div>
-              </div>
-              </div>
-            </div>
-            <div class="col">
-             <div class="align-content-lg-end">
-              <div class="h-150 p-5 text-bg-dark rounded-3 ">
-                <h2>Lab 5</h2>
-                <p>
-                 Lab # 5 Changing Widgets in response to input. In this research Assignment, I will demonstrate Changing Widgets in response to input by creating and showing a few examples. 
-                </p>
-                <a target="_blank" href="https://docs.google.com/document/d/1M5H3sGZFIqAZAFTxOkkxAsWubfIHEabR/edit?usp=sharing&ouid=116833884735512122959&rtpof=true&sd=true">
-                  <button class="btn btn-outline-light" type="button">Click Here to view report!</button>
-                </a>
-                &nbsp;
-                <a target="_blank" href="https://github.com/">
-                  <button class="btn btn-outline-light" type="button">Click Here to view the code !</button>
-                </a>
-              </div>
-             </div>
-           </div>
-         <br /><br />
-          <div class="col">
-        <div class="align-content-lg-end">
-              <div class="h-100 p-5 text-bg-dark rounded-3 ">
-                <h2>Lab 6</h2>
-                <p>
-                 My Flutter App.( Charity app. )
-                  So with this app user can add some information regarding the charity to send a message to the community centre to pick up the donation.                 </p>
-                 <!--<a target="_blank" href="https://docs.google.com/document/d/1OzXDZZ5oW9SdU7GuyXr5wanO5QwXxT84/edit?usp=sharing&ouid=116833884735512122959&rtpof=true&sd=true">
-                  <button class="btn btn-outline-light" type="button">Click Here to view report!</button>
-                </a> -->
-                &nbsp;
-                <a target="_blank" href="https://youtu.be/0a0_ZeBae78-">
-                  <button class="btn btn-outline-light" type="button">Click Here to view Demo Video !</button>
-                </a>
-              </div>
-        </div>
-      </div>
-    </div>
-  </div>
-    </div>
-  </main>
-</body>
-<div class="container">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted"><img src="https://img.icons8.com/ios-glyphs/90/1A1A1A/home.png"/></a></li>
-        <li class="nav-item"><a href="https://www.linkedin.com/in/-sanjiv-patel" class="nav-link px-2 text-muted"><img src="https://img.icons8.com/ios-filled/90/1A1A1A/linkedin.png"/></a></li>
-        <li class="nav-item"><a href="https://github.com/sanjivpatel532" class="nav-link px-2 text-muted"><img src="https://img.icons8.com/sf-regular/90/000000/github.png"/></a></li>
-      </ul>
-      <p class="text-center text-muted">&copy; 2024, SANJIV PATEL</p>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 WebApp. All rights reserved.</p>
     </footer>
-</div>
+  </body>
 </html>
